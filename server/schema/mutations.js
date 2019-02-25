@@ -9,7 +9,7 @@ const AuthService = require('../services/auth');
 
 const mutation = new GraphQLObjectType({
     name: 'Mutation',
-    field: {
+    fields: {
         signup: {
             type: UserType,
             args: {
